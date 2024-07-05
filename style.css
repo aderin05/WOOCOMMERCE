@@ -163,7 +163,7 @@ a {
 .stripe {
   top: 70px;
   left: -90px;
-  height: 220px;
+  height: 200px;
 }
 
 .setup,
@@ -207,8 +207,8 @@ a {
 }
 
 .cardText h4{
-  font-size: 28px;
-  line-height: 60px;
+  font-size: 24px;
+  line-height: 50px;
 }
 
 .about {
