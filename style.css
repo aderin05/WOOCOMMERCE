@@ -124,7 +124,7 @@ a {
   margin: 3rem auto;
   text-align: center;
   color: #272d4e;
-  width: 30%;
+  width: 35%;
 }
 
 .container {
@@ -178,8 +178,8 @@ a {
 }
 
 .square {
-  left: 45px;
-  top: -30px;
+  left: 40px;
+  top: -20px;
 }
 
 .mp {
@@ -188,8 +188,8 @@ a {
 }
 
 .fb {
-  left: 45px;
-  top: 95px;
+  left: 40px;
+  top: 80px;
 }
 
 .jp {
