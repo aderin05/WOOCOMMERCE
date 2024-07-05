@@ -1,6 +1,7 @@
 * {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
   background-color: aliceblue;
 }
 
@@ -30,6 +31,7 @@ a {
 
 .header {
   justify-content: space-between;
+  align-items: center;
   padding: 1rem 2rem;
 }
 
@@ -119,70 +121,87 @@ a {
   font-size: 55px;
   font-weight: 700;
   line-height: 70px;
+  margin: 3rem auto;
   text-align: center;
   color: #272d4e;
+  width: 30%;
 }
 
-.container{
-    display: flex;
-    padding: 0 11rem;
+.container {
+  display: flex;
+  gap: 4rem;
+  padding: 0 11rem;
 }
 
-.mainImage{
-    position: relative;
-    padding: 0;
+.second{
+  margin-top: 5rem;
 }
 
-.sideImage{
-    position: absolute;
-    padding: 0;
+.third{
+  margin-top: 10rem;
 }
 
-.apple{
-    top: 50px;
-    left: -40px;
+.mainImage {
+  position: relative;
+  padding: 0;
 }
 
-.stripe{
-    top: 100px;
-    left: -80px;
-    height: 220px;
-} 
+.sideImage {
+  position: absolute;
+  border-radius: 6px;
+}
 
-.setup, .customize, .community{
-    z-index: -1;
-} 
+.sideImage img:not(.apple img) {
+  border-radius: 20px;
+}
 
-.box > .sideImage{
+.apple {
+  top: 15px;
+  left: -70px;
+}
+
+.stripe {
+  top: 70px;
+  left: -90px;
+  height: 220px;
+}
+
+.setup,
+.customize,
+.community {
+  z-index: -1;
+}
+
+.box > .sideImage {
   width: 80px;
   height: 50px;
 }
 
-.square{
-  left: 70px;
-  top: -10px;
+.square {
+  left: 45px;
+  top: -30px;
 }
 
-.mp{
-  left: 240px;
-  top: 40px;
+.mp {
+  left: 220px;
+  top: 20px;
 }
 
-.fb{
-  left: 70px;
-  top: 100px;
+.fb {
+  left: 45px;
+  top: 95px;
 }
 
-.jp{
-  left: 200px;
-  top: 120px;
+.jp {
+  left: 175px;
+  top: 105px;
 }
 
-.gg{
-  bottom: 30px;
-  left: 135px;
+.gg {
+  bottom: -10px;
+  left: 120px;
 }
 
-.about{
-    background-color: #7854f7;
+.about {
+  background-color: #7854f7;
 }
