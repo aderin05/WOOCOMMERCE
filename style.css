@@ -73,11 +73,11 @@ a {
 }
 
 .heroText {
-  width: 55%;
+  width: 58%;
 }
 
 .heroImage {
-  width: 45%;
+  width: 42%;
 }
 
 .heroText h1 {
@@ -140,17 +140,23 @@ a {
 
 .apple{
     top: 50px;
-    left: -50px;
+    left: -40px;
 }
 
 .stripe{
     top: 100px;
-    left: -150px;
+    left: -80px;
+    height: 220px;
 } 
 
 .setup, .customize{
     z-index: -1;
-} */
+} 
+
+.box > .sideImage{
+  width: 100px;
+  height: 50px;
+}
 
 .about{
     background-color: #7854f7;
