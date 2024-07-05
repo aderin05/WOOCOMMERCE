@@ -163,7 +163,7 @@ a {
 .stripe {
   top: 70px;
   left: -90px;
-  height: 180px;
+  height: 170px;
 }
 
 .setup,
@@ -203,7 +203,7 @@ a {
 }
 
 .cardText{
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 .cardText h4{
