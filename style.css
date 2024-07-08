@@ -283,7 +283,7 @@ a {
   position: relative;
 }
 
-.sc-1, .sc-2,  .mc, .bc{
+.sc-1, .sc-2,  .mc, .bc,.dots-2{
   position: absolute;
 }
 
@@ -311,6 +311,12 @@ a {
   height: 40%;
   left: 80%;
   top: 3%;
+}
+
+.dots-2{
+  height: 40%;
+  top: 40%;
+  left: 35%;
 }
 
 .dots{
@@ -356,4 +362,52 @@ a {
   border-radius: 50px;
   color: #fff;
   padding: 10px 15px;
+}
+
+
+.start{
+  background-color: #5F37EF;
+  display: flex;
+  align-items: center;
+  padding: 4rem 25% 4rem 20%;
+  color: #fff;
+}
+
+.start p{
+  font-size: 28px;
+  width: 85%;
+}
+
+.start p span{
+  font-weight: 700;
+}
+
+.start button{
+  font-size: 14px;
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 15px 15px;
+  background-color: #5F37EF;
+  border-radius: 50px;
+}
+
+footer{
+  background-color: #7854f7;
+  padding: 4rem 13rem;
+}
+
+.woocommerce ul, .woocommerce ul li{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.woocommerce ul li{
+  gap: 0.5rem;
+  color: #fff;
+  font-size: 18px;
+}
+
+.woocommerce li span{
+  font-weight: 700;
 }
