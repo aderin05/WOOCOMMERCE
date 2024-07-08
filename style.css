@@ -171,7 +171,7 @@ a {
 
 .setup,
 .customize,
-.community {
+.com {
   z-index: -1;
 }
 
@@ -256,7 +256,11 @@ a {
 }
 
 .develop {
-  padding-left: 15rem;
+  margin-left: 15rem;
+}
+
+.community{
+  margin: 0 4rem 0 12rem;
 }
 
 .developImg,
@@ -264,32 +268,89 @@ a {
   width: 27.5%;
 }
 
+.communityImg{
+  width: 30%;
+  margin-bottom: -4rem;
+  position: relative;
+}
+
 .developImg {
+  position: relative;
   margin-top: -4rem;
+}
+
+.dev, .learn{
+  position: relative;
+}
+
+.sc-1, .sc-2,  .mc, .bc{
+  position: absolute;
+}
+
+.sc-1{
+  width: 50px;
+  height: 50px;
+  left: -15%;
+  top: 30%;
+}
+
+.bc{
+  width: 70%;
+  height: 70%;
+  top: 35%;
+  left: -5%;
+}
+
+.sc-2{
+  width: 50px;
+  height: 50px;
+  left: 30%;
+}
+.mc{
+  width: 40%;
+  height: 40%;
+  left: 80%;
+  top: 3%;
+}
+
+.dots{
+  margin-top: -8rem;
+  width: 15%;
+  height: 350px;
 }
 
 .woo {
   height: 13rem;
 }
 
-.developText {
+.developText{
   width: 45%;
   color: #fff;
   padding: 2rem 0 0 2rem;
 }
 
-.developText h4 {
+.communityText{
+  width: 40%;
+  color: #fff;
+  padding: 2rem 0 2rem 4rem;
+}
+
+.developText h4, .communityText h4 {
   font-size: 36px;
   font-weight: 700;
 }
 
-.developText p {
-  font-size: 14px;
+.developText p, .communityText p {
+  font-size: 16px;
   width: 90%;
   margin: 1rem 0;
 }
 
-.developText button{
+.communityText p{
+  width: 95%;
+}
+
+.developText button, .communityText button{
   background-color: #70C217;
   border: 0;
   border-radius: 50px;
