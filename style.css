@@ -396,6 +396,10 @@ footer{
   padding: 4rem 13rem;
 }
 
+.woocommerce{
+  border-bottom: 1px solid #fff;
+}
+
 .woocommerce ul, .woocommerce ul li{
   display: flex;
   align-items: center;
@@ -410,4 +414,30 @@ footer{
 
 .woocommerce li span{
   font-weight: 700;
+}
+
+.wl{
+  width: 20%;
+  margin: 5rem auto 2rem;
+}
+
+.footerLinks{
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 3rem 5rem;
+}
+
+.footerLinks div{
+  width: 20%;
+}
+
+.footerLinks h5{
+  padding-bottom: 1rem;
+  font-weight: 700;
+}
+
+.footerLinks a{
+  display: block;
+  color: #fff;
 }
