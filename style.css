@@ -275,14 +275,14 @@ a {
 .developText {
   width: 45%;
   color: #fff;
-  padding: 3rem 0 0 2rem;
+  padding: 2rem 0 0 2rem;
 }
 
 .developText h4 {
   font-size: 36px;
   font-weight: 700;
   line-height: 45.54px;
-  width: 48%;
+  width: 50%;
 }
 
 .developText p {
