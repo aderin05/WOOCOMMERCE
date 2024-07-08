@@ -2,6 +2,9 @@
   margin: 0;
   font-family: "Roboto", sans-serif;
   box-sizing: border-box;
+}
+
+.body {
   background-color: aliceblue;
 }
 
@@ -130,14 +133,14 @@ a {
 .container {
   display: flex;
   gap: 4rem;
-  padding: 0 11rem;
+  padding: 0 11rem 5rem;
 }
 
-.second{
+.second {
   margin-top: 5rem;
 }
 
-.third{
+.third {
   margin-top: 10rem;
 }
 
@@ -202,43 +205,96 @@ a {
   left: 120px;
 }
 
-.fc-3{
+.fc-3 {
   top: -70%;
   left: 55%;
   width: 35%;
 }
 
-.fc-2{
+.fc-2 {
   top: 40%;
   left: 75%;
   width: 45%;
 }
 
-.fc-1{
+.fc-1 {
   top: -20%;
   left: 10%;
   width: 40%;
 }
 
-.cardText{
+.cardText {
   margin-top: 2.5rem;
 }
 
-.cardText h4{
+.cardText h4 {
   font-size: 24px;
   line-height: 50px;
 }
 
-.cardText p{
-  font-size: 16px;
+.cardText p {
+  font-size: 15px;
   font-weight: 400;
+  margin: 1rem 0;
+  color: #94a2b3;
 }
 
-.cardText a{
+.cardText a {
   color: #299ef3;
   font-size: 16px;
+  font-weight: 700;
 }
 
 .about {
-  background-color: #7854f7;
+  background-color: #7854f7 !important;
+  border-radius: -50% 0 -50% 0;
+}
+
+.develop,
+.community {
+  display: flex;
+}
+
+.develop {
+  padding-left: 17rem;
+}
+
+.developImg,
+.woo {
+  width: 27.5%;
+}
+
+.developImg {
+  margin-top: -4rem;
+}
+
+.woo {
+  height: 13rem;
+}
+
+.developText {
+  width: 45%;
+  color: #fff;
+  padding: 3rem 0 0 3rem;
+}
+
+.developText h4 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 45.54px;
+  width: 48%;
+}
+
+.developText p {
+  font-size: 16px;
+  width: 90%;
+  margin: 1rem 0;
+}
+
+.developText button{
+  background-color: #70C217;
+  border: 0;
+  border-radius: 50px;
+  color: #fff;
+  padding: 10px 15px;
 }
