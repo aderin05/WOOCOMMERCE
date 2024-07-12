@@ -155,7 +155,7 @@ a {
 }
 
 .sideImage img:not(.apple img) {
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 .apple {
@@ -164,9 +164,9 @@ a {
 }
 
 .stripe {
-  top: 70px;
-  left: -90px;
-  height: 170px;
+  top: 38%;
+  left: -35%;
+  height: 85%;
 }
 
 .setup,
@@ -256,11 +256,11 @@ a {
 }
 
 .develop {
-  margin-left: 15rem;
+  margin-left: 14%;
 }
 
 .community{
-  margin: 0 4rem 0 12rem;
+  margin: 0 4rem 0 12%;
 }
 
 .developImg,
@@ -545,4 +545,253 @@ footer{
 
 .people{
   margin-top: 15rem;
+}
+
+
+@media screen and (max-width : 1024px) {
+  .header{
+    justify-content: space-evenly;
+  }
+
+  .heroSection{
+    padding: 5rem 0 0 10%;
+  }
+
+  .heroText h1{
+    font-size: 55px;
+  }
+
+  .comSect h3{
+    width: 50%;
+  }
+
+  .container{
+    padding: 0 10% 10%;
+  }
+
+  .develop{
+    margin-left: 11%;
+  }
+
+  .community{
+    margin-left: 9%;
+  }
+
+  .knowledge h3{
+    width: 50%;
+    margin-bottom: 3rem;
+  }
+
+  .start{
+    padding: 4rem 10%;
+  }
+
+  footer{
+    padding: 4rem 10%;
+  }
+
+  .woocommerce ul{
+    padding: 0;
+  }
+
+  .woocommerce ul li{
+    font-size: 14px;
+  }
+
+  .footerLinks{
+    padding: 4rem 0;
+  }
+}
+
+@media screen and (max-width : 768px){
+  .header{
+    justify-content: space-between;
+    padding: 1rem 0 1rem 4rem;
+  }
+  
+  .nav{
+    display: none;
+  }
+
+  .heroSection, .start, footer{
+    padding-left: 4rem;
+  }
+
+  .develop, .community{
+    margin-left: 4rem;
+  }
+
+  .heroText{
+    width: 58%;
+  }
+
+  .heroText h1{
+    font-size: 40px;
+    line-height: normal;
+  }
+
+  .heroText span{
+    word-spacing: normal;
+  }
+
+  .heroText button{
+    padding: 15px 30px;
+  }
+
+  .comSect h3{
+    width: 65%;
+    font-size: 48px;
+  }
+
+  .container{
+    flex-direction: column;
+    padding: 3rem 28% 5rem;
+  }
+
+  .cards{
+    padding: 0 0 2rem;
+  }
+
+  .cardText h4{
+    font-size: 30px;
+  }
+
+  .cardText p{
+    font-size: 16px;
+  }
+
+  .card{
+    width: 60%;
+    padding: 4rem 2rem;
+  }
+
+  .card-1{
+    width: 55%;
+    left: 22%;
+  }
+
+  .card-2{
+    width: 50%;
+    left: 25%;
+  }
+
+  .pr-1, .pr-5{
+    width: 12%;
+  }
+
+  .pr-2, .pr-3, .pr-4, .pr-6{
+    width: 10%;
+  }
+
+  .pr-1{
+    left: 12%;
+  }
+
+  .pr-3{
+    left: -2%;
+  }
+
+  .pr-4{
+    right: 15%;
+  }
+
+  .pr-5{
+    right: -5%;
+  }
+
+  .red-dots{
+    right: 7%;
+  }
+
+  .green-dots{
+    bottom: -40%;
+    left: 10%;
+  }
+
+  .start p{
+    font-size: 20px;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .login{
+    display: none;
+  }
+
+  .header{
+    padding: 2rem;
+  }
+
+  .heroSection{
+    padding-left: 2rem;
+    flex-direction: column;
+  }
+
+  .heroText, .heroImage{
+    width: 100%;
+    padding: 0 0 4rem;
+  }
+
+  .heroText button{
+    padding: 15px 20px;
+  }
+
+  .comSect h3{
+    width: 100%;
+  }
+
+  .container{
+    padding: 3rem 20% 5rem;
+  }
+
+  .develop, .community{
+    margin: 0;
+    flex-direction: column;
+    position: relative;
+    padding-bottom: 3rem;
+  }
+
+  .community{
+    flex-direction: column-reverse;
+  }
+
+  .develop > *, .community > *{
+    width: 100%;
+  }
+
+  .woo, .dots{
+    position: absolute;
+    height: 100px;
+    top: 55%;
+    width: 70%;
+    right: 0;
+  }
+
+  .communityText{
+    padding-left: 2rem;
+  }
+
+  footer{
+    padding-left: 2rem;
+  }
+
+  .footerLinks,.woocommerce > ul{
+    flex-direction: column;
+  }
+
+  .woocommerce ul li{
+    font-size: 18px;
+    padding:  .5rem 0;
+  }
+
+  .wl{
+    width: 80%;
+  }
+
+  .footerLinks div{
+    width: 100%;
+    margin: 2rem 0;
+  }
+
 }
