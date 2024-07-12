@@ -74,7 +74,7 @@ a {
 }
 
 .heroSection {
-  padding: 3rem 0 0 13rem;
+  padding: 3rem 0 0 15%;
 }
 
 .heroText {
@@ -93,7 +93,7 @@ a {
 }
 
 .heroText p {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 25px;
   padding: 1rem 0;
@@ -132,8 +132,8 @@ a {
 
 .container {
   display: flex;
-  gap: 4rem;
-  padding: 0 11rem 5rem;
+  gap: 7%;
+  padding: 0 15% 8%;
 }
 
 .second {
@@ -176,33 +176,33 @@ a {
 }
 
 .box > .sideImage {
-  width: 80px;
-  height: 50px;
+  width: 25%;
+  height: 22%;
 }
 
 .square {
-  left: 40px;
-  top: -35px;
+  left: 13%;
+  top: -10%;
 }
 
 .mp {
-  left: 190px;
-  top: 20px;
+  left: 67%;
+  top: 12%;
 }
 
 .fb {
-  left: 40px;
-  top: 80px;
+  left: 13%;
+  top: 40%;
 }
 
 .jp {
-  left: 150px;
-  top: 105px;
+  left: 50%;
+  top: 47%;
 }
 
 .gg {
-  bottom: -20px;
-  left: 120px;
+  bottom: -10%;
+  left: 38%;
 }
 
 .fc-3 {
@@ -393,7 +393,7 @@ a {
 
 footer{
   background-color: #7854f7;
-  padding: 4rem 13rem;
+  padding: 4rem 15%;
 }
 
 .woocommerce{
