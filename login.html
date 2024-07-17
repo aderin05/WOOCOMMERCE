@@ -12,6 +12,10 @@
       rel="stylesheet"
     /> 
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
   </head>
   <body>
     <div class="body">
@@ -36,11 +40,9 @@
           <div class="links">
             <a href="#" class="login">Login</a>
             <button><a href="./login.html"> Get Started </a></button>
-            <i
-              class="fa-solid fa-magnifying-glass fa-lg"
-              style="color: black"
-              aria-hidden="false"
-            ></i>
+            <span class="material-symbols-outlined">
+              search
+              </span>
           </div>
         </div>
       </header>
@@ -51,8 +53,10 @@
         </div>
         <div class="signUpText">
           <h1>Create Account</h1>
-          <button>Sign up with Google</button>
-          <button>Sign up with Facebook</button>
+          <div class="buttons">
+          <button><i class="material-icons" style="color: darkgreen; font-weight: bolder;">G</i>Sign up with Google</button>
+          <button><i class="material-icons" style="color: blue;">facebook</i>Sign up with Facebook</button>
+        </div>
           <p class="or">- OR -</p>
           <form action="">
             <input type="text" placeholder="Full Name" />

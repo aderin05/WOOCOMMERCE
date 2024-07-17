@@ -878,6 +878,11 @@ footer{
   margin-bottom: 2rem;
 }
 
+.buttons{
+  display: flex;
+  gap: 5px;
+}
+
 .signUpText button{
   background-color: #fff;
   border: 1px solid #BDC6D7;
@@ -885,6 +890,8 @@ footer{
   font-size: 14px;
   padding: 10px;
   border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .or{
