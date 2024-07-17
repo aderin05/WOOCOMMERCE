@@ -729,6 +729,18 @@ footer{
     font-size: 20px;
     width: 80%;
   }
+
+  .people{
+    padding: 2rem 0;
+  }
+
+  .people h3{
+    width: 70%;
+  }
+
+  .people p{
+    width: 70%;
+  }
 }
 
 @media screen and (max-width: 425px) {
@@ -791,6 +803,24 @@ footer{
 
   .communityText{
     padding-left: 2rem;
+  }
+
+  .knowledge{
+    padding: 10rem 0 0;
+  }
+
+  .people{
+    padding: 3rem 0 0;
+  }
+
+  .people h3{
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .people p{
+    width: 100%;
+    font-size: 14px;
   }
 
   footer{
