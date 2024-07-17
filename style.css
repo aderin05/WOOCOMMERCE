@@ -403,6 +403,10 @@ a {
   border-radius: 50px;
 }
 
+.start button a{
+  color: #fff;
+}
+
 footer{
   background-color: #7854f7;
   padding: 4rem 15%;
